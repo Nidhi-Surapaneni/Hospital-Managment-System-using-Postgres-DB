@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<style>
+button {
+    background-color: #4CAF50;
+    color: white;
+    padding: 50px 20px;
+    margin: 8px 0;
+    border: none;
+    cursor: pointer;
+    width:600px;
+    opacity: 0.9;
+	
+}
+.viewbtn, .makebtn {
+    padding: 30px 20px;
+    background-color: #f44336;
+	position:relative;
+	left:370px;
+	top:100px;
+}
+.clearfix::after {
+    content: "";
+    clear: both;
+    display: table;
+	
+}
+</style>
+</head>
+<body style="background-color:#d3d3d3;">
+
+<h1><center>Appointment Page </center></h1>
+
+ <div class="clearfix">
+	
+    <a href="app.php" method="POST"><button type="button" class="viewbtn">View Previous Appointments</button></a>
+	 </br>
+      <a href="appoint_schedule.html"><button type="button" class="makebtn" >Make a new appointment</button></a>
+    </div>
+	
+</body>
+</html>

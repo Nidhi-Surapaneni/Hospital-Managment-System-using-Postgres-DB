@@ -1,0 +1,24 @@
+
+<html> 
+<head>
+  <style>
+  body{
+	  //background-image: url("Car Background.jpg");
+	  background-repeat: no-repeat;
+	  background-attachment: fixed;
+	  background-size: cover;
+	  height: 1100px;
+	  position:absolute;
+	}
+  </style>
+</head>
+    <body> 
+	<ul>
+	<form name="display" action="outpatient_update.php" method="GET" >
+	Patient ID:<input type="text" name="pid" />
+	<input type="submit" name="submit" />
+	</form>
+</ul>
+
+    </body> 
+</html> 

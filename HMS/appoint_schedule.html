@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<style>
+.bookbtn {
+    width: auto;
+    padding: 10px 18px;
+    background-color: #f44336;
+}
+.container {
+    padding: 16px;
+	position:relative;
+	left:500px;
+}
+</style>
+</head>
+<body style="background-color:#d3d3d3;">
+
+<h1><center>Book your appointment now!</center></h1>
+<form action="appointment.php"  method="POST">
+  <div class="container">
+  
+  	    <label for="pid"><b>Patient id</b></label>
+    <input type="text"  name="pid" required>
+	</br>
+	</br>
+  
+	    <!--label for="date"><b>Date</b></label>
+    <input type="text"  name="date" placeholder="dd.mm.yyyy" required-->
+	
+	<label for="dob"><b id="na">Appointment Date</b> </label>
+    <input type="date" name="date" required><br/><br/><br/>
+	
+	
+	
+    <label for="time"><b>Time</b></label>
+    <input type="text" name="time" placeholder="hh:mm" required>
+	</br>
+	</br>
+	
+	    <label for="doc"><b>Last Name</b></label></br>
+		<input type="radio" name="doc" value="0001">Dr Nagasubramanyam</br>
+		<input type="radio" name="doc" value="0002">Dr Nikhil</br>
+		<input type="radio" name="doc" value="0003">Dr Chaitanya</br>
+		<input type="radio" name="doc" value="0004">Dr Yashoda</br>
+		<input type="radio" name="doc" value="0005">Dr Chandra</br>
+		<input type="radio" name="doc" value="0006">Dr Thejaswini</br>
+		<input type="radio" name="doc" value="0007">Dr Mohith</br>
+		<input type="radio" name="doc" value="0008">Dr Charan</br>
+		<input type="radio" name="doc" value="0009">Dr Ullas</br>
+		<input type="radio" name="doc" value="0010">Dr Shreyas</br>
+
+		
+  
+	</br>
+	</br>
+	
+	<div>
+      <button type="submit" class="bookbtn" >BOOK NOW</button>
+    </div>
+  </div>
+</form>
+
+</body>
+</html>

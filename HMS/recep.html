@@ -1,0 +1,67 @@
+﻿<!DOCTYPE html>
+<html>
+<body>
+<center><h1 id="hed"> RECEPTION</h1></center>
+<div id="page" style="left:100px">
+<div id="nav" >
+			
+ <div class="clearfix" style="position:relative;width:19%;height:50%;top:30px;left:450px">
+<h1 id="re">OUTPATIENT</h1>
+   <a href="outpatient.html"><button type="button" class="add" value ="oADD">ADD</button></a>
+     <a href="out_update1.php"><button type="button" class="update" value="oupdate">UPDATE</button></a>
+    </div>				
+ <div class="clearfix" style="position:relative;width:19%;height:50%;top:30px;left:450px">
+ <h1 id="re">INPATIENT</h1>
+<a href="inpatient.html"><button type="button" class="add" value ="iADD">ADD</button></a>
+     <a href="/in_update1.html"><button type="button" class="update" value="iupdate">UPDATE</button></a>
+    </div>			
+</div>
+<div class="clearfix" style="position:relative;width:19%;height:50%;top:30px;left:450px">
+  <h1 id="re">WARD</h1>
+<a href="ward.html"><button type="button" class="add" value ="wadd">ADD</button></a>
+     <!--a href="makeapt.html"><button type="button" class="update" value="wupdate">UPDATE</button></a-->
+    </div>
+</div>
+
+
+<style>
+#re{
+font-size:30px;}
+#hed{
+font-size:70px;}
+button {
+    background-color: #4CAF50;
+    color: white;
+    padding: 50px 20px;
+    margin: 8px 0;
+
+    cursor: pointer;
+    width:100px;
+    opacity: 0.9;
+	
+}
+.add, .update {
+    padding: 30px 20px;
+    background-color: darkblue;
+	position:relative;
+	left:250px;
+	top:-60px;
+}
+.clearfix::after {
+    content: "";
+    clear: both;
+    display: table;
+	
+}
+
+body{
+	background-image: url("bg1.jpg");
+	background-size: 1400px;
+    background-repeat: no-repeat;
+	}
+.container {border-radius: 50%;}
+</style>
+</body>
+</html>
+
+    
